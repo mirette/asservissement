@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              F887C08F619B4CA5A0CAD6B8 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = CD67E410EC374636830FD1EE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            52B162FF607F406DACE7594B /* CMake Rules */,
+                     );
+                     dependencies = (
+                            1CC09BB5F13E4CA3A5E9E798 /* PBXTargetDependency */,
+                            4AE69141235E49D2BBF648D4 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              20B7CD5CA21B4BAC9C4AD006 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A8ADACD20EFC49018845389C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            A3B9239041A64DB9A4430608 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              F9998A1F195F4D10B405D1E4 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = BD06D1951C4842AF91B9F761 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            D6A4A9B883D840E38EA1EE0F /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            4B55915C15EA40AC96B73FC7 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+5CD9AC6AF1DE4708BFEC6F02 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 1CBF9405F0694D688E1C67BF /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+76683472D3AC4857A0540865 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/Plotter.cpp */ = {isa = PBXBuildFile; fileRef = 773B0F09A73C479A95E67CAA /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/Plotter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9B8DA3F0250B4EB782104E56 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/FindDialog.cpp */ = {isa = PBXBuildFile; fileRef = FB35066CFB29445385E2B379 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/FindDialog.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A440E664E8CE4AE49CA7C42B /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/MainFram.cpp */ = {isa = PBXBuildFile; fileRef = 7FCC9072978B4B1F935DF640 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/MainFram.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BD25A909A52644F6A4862AAF /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/Plotter.h */ = {isa = PBXBuildFile; fileRef = 8BC78B190B8148EDB8FE9F7B /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/Plotter.h */; settings = { COMPILER_FLAGS = ""; }; };
+7AD157BAF13C4129A2A3CB87 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/FindDialog.hpp */ = {isa = PBXBuildFile; fileRef = 893B09A359364FF9BFEAA771 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/FindDialog.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6CDE72F801ED4EE1A22A14B9 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/MainFram.hpp */ = {isa = PBXBuildFile; fileRef = 1563970EAA1F40AFA884B36A /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/MainFram.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4B0CAFBE21EE43CDBD2828EA /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx */ = {isa = PBXBuildFile; fileRef = 07EC40F3B39D4C1AB7922BEB /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx */; settings = { COMPILER_FLAGS = ""; }; };
+9DF4AE4F1DD747B99B52EAB2 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx */ = {isa = PBXBuildFile; fileRef = 32C167C2BBB54F56A68F0189 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx */; settings = { COMPILER_FLAGS = ""; }; };
+F93F328EC24D4B3BA2F2A013 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx */ = {isa = PBXBuildFile; fileRef = 42844BE1D253480CA8A6F232 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx */; settings = { COMPILER_FLAGS = ""; }; };
+C40E2FF360C84EC78266552B /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 43DF0302CB714960A0A1C7A4 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+C8A044E364E04D52BCCAA252 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx.rule */ = {isa = PBXBuildFile; fileRef = AAB591A15F984316BA89B193 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx.rule */; settings = { COMPILER_FLAGS = ""; }; };
+7075B94138334F338AED1B8F /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx.rule */ = {isa = PBXBuildFile; fileRef = BD8EBE7CC4424D57BDDDFF4F /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx.rule */; settings = { COMPILER_FLAGS = ""; }; };
+53E52AEBB18D4346A6C66A71 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx.rule */ = {isa = PBXBuildFile; fileRef = 71D4FEA2DF9B4014BC7DE68E /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx.rule */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              548D5D3FDB1C4F47B14D4477 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              71B4D732227F4957A57ED76C /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              CBD8A39D03834232998AFBB7 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              EF901341F7C04885A25B1BC7 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              C0DCF2542D754C93AF583923 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              D69C5C28BB6A4027A79826D4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 599307DD6AE74AEFA287FE56 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 20B7CD5CA21B4BAC9C4AD006;
+                     remoteInfo = ZERO_CHECK;
+              };
+              A27B113D378E4D16B75FAFEC /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 599307DD6AE74AEFA287FE56 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 26BDFE6387F84878A4A3EA99;
+                     remoteInfo = PlotterProject;
+              };
+              FCB7DCC7A05F42BFBD248F32 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 599307DD6AE74AEFA287FE56 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F887C08F619B4CA5A0CAD6B8;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+43DF0302CB714960A0A1C7A4 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+1CBF9405F0694D688E1C67BF /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "main.cpp"; path = "src/main.cpp"; sourceTree = SOURCE_ROOT; };
+773B0F09A73C479A95E67CAA /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/Plotter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "Plotter.cpp"; path = "src/Plotter.cpp"; sourceTree = SOURCE_ROOT; };
+FB35066CFB29445385E2B379 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/FindDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "FindDialog.cpp"; path = "src/FindDialog.cpp"; sourceTree = SOURCE_ROOT; };
+7FCC9072978B4B1F935DF640 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/MainFram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "MainFram.cpp"; path = "src/MainFram.cpp"; sourceTree = SOURCE_ROOT; };
+8BC78B190B8148EDB8FE9F7B /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/Plotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "Plotter.h"; path = "include/Plotter.h"; sourceTree = SOURCE_ROOT; };
+893B09A359364FF9BFEAA771 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/FindDialog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "FindDialog.hpp"; path = "include/FindDialog.hpp"; sourceTree = SOURCE_ROOT; };
+1563970EAA1F40AFA884B36A /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/MainFram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "MainFram.hpp"; path = "include/MainFram.hpp"; sourceTree = SOURCE_ROOT; };
+07EC40F3B39D4C1AB7922BEB /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "moc_Plotter.cxx"; path = "../Build/Plotter/include/moc_Plotter.cxx"; sourceTree = SOURCE_ROOT; };
+32C167C2BBB54F56A68F0189 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "moc_FindDialog.cxx"; path = "../Build/Plotter/include/moc_FindDialog.cxx"; sourceTree = SOURCE_ROOT; };
+42844BE1D253480CA8A6F232 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "moc_MainFram.cxx"; path = "../Build/Plotter/include/moc_MainFram.cxx"; sourceTree = SOURCE_ROOT; };
+AAB591A15F984316BA89B193 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx.rule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = "moc_Plotter.cxx.rule"; path = "../Build/Plotter/include/moc_Plotter.cxx.rule"; sourceTree = SOURCE_ROOT; };
+BD8EBE7CC4424D57BDDDFF4F /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx.rule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = "moc_FindDialog.cxx.rule"; path = "../Build/Plotter/include/moc_FindDialog.cxx.rule"; sourceTree = SOURCE_ROOT; };
+71D4FEA2DF9B4014BC7DE68E /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx.rule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = "moc_MainFram.cxx.rule"; path = "../Build/Plotter/include/moc_MainFram.cxx.rule"; sourceTree = SOURCE_ROOT; };
+77984F42F9954412B29A2E7F /* PlotterProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = PlotterProject_d; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              B1FAC25B10D245F7BEE954BC  = {
+                     isa = PBXGroup;
+                     children = (
+                            BA415645CD404260B31E70BB /* Sources */,
+                            C3821DF75F104F7BAE83DAD5 /* Resources */,
+                            A1EE50EA7D3E4C2E9B6ECE75 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              BA415645CD404260B31E70BB /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0E62F643A0554380A583A790 /* ALL_BUILD */,
+                            F503AD82735F414493621942 /* PlotterProject */,
+                            4885CBA443D04F16A340D427 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              C3821DF75F104F7BAE83DAD5 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              0E62F643A0554380A583A790 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8F7B4F806C794E1DBFED3389 /* CMake Rules */,
+                            43DF0302CB714960A0A1C7A4 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              8F7B4F806C794E1DBFED3389 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              F503AD82735F414493621942 /* PlotterProject */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C2252014157D40AC85507C38 /* Source Files */,
+                            B7D5356FDD9D44DFA940A371 /* Header Files */,
+                            D1901A7892C6423D816418DE /* moc */,
+                            0A6E8A2D5D4E44A285E4A146 /* CMake Rules */,
+                            43DF0302CB714960A0A1C7A4 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/CMakeLists.txt */,
+                     );
+                     name = PlotterProject;
+                     sourceTree = "<group>";
+              };
+              C2252014157D40AC85507C38 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1CBF9405F0694D688E1C67BF /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/main.cpp */,
+                            773B0F09A73C479A95E67CAA /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/Plotter.cpp */,
+                            FB35066CFB29445385E2B379 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/FindDialog.cpp */,
+                            7FCC9072978B4B1F935DF640 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/MainFram.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              B7D5356FDD9D44DFA940A371 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8BC78B190B8148EDB8FE9F7B /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/Plotter.h */,
+                            893B09A359364FF9BFEAA771 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/FindDialog.hpp */,
+                            1563970EAA1F40AFA884B36A /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include/MainFram.hpp */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              D1901A7892C6423D816418DE /* moc */ = {
+                     isa = PBXGroup;
+                     children = (
+                            07EC40F3B39D4C1AB7922BEB /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx */,
+                            32C167C2BBB54F56A68F0189 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx */,
+                            42844BE1D253480CA8A6F232 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx */,
+                     );
+                     name = moc;
+                     sourceTree = "<group>";
+              };
+              0A6E8A2D5D4E44A285E4A146 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AAB591A15F984316BA89B193 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx.rule */,
+                            BD8EBE7CC4424D57BDDDFF4F /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx.rule */,
+                            71D4FEA2DF9B4014BC7DE68E /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx.rule */,
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              4885CBA443D04F16A340D427 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7482C2A72EB34EFD982CBF43 /* CMake Rules */,
+                            43DF0302CB714960A0A1C7A4 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              7482C2A72EB34EFD982CBF43 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              A1EE50EA7D3E4C2E9B6ECE75 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            77984F42F9954412B29A2E7F /* PlotterProject */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              26BDFE6387F84878A4A3EA99 /* PlotterProject */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 51F0A44370F04719A4A7B3D4 /* Build configuration list for PBXNativeTarget "PlotterProject" */;
+                     buildPhases = (
+                            CA3BD622E3314611B59087E3 /* CMake Rules */,
+                            2BCA01D4D8444093890D9F27 /* Sources */,
+                            BA16B0ACBB71425584A8A236 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            1CC09BB5F13E4CA3A5E9E798 /* PBXTargetDependency */,
+                     );
+                     name = PlotterProject;
+                     productName = PlotterProject;
+                     productReference = 77984F42F9954412B29A2E7F /* PlotterProject */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              599307DD6AE74AEFA287FE56 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = C72042B56B5C42E28D2FA561 /* Build configuration list for PBXProject  "PlotterProject" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            71B4D732227F4957A57ED76C /* Debug */,
+                            CBD8A39D03834232998AFBB7 /* Release */,
+                            EF901341F7C04885A25B1BC7 /* MinSizeRel */,
+                            C0DCF2542D754C93AF583923 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = B1FAC25B10D245F7BEE954BC;
+                     projectDirPath = "../../Plotter";
+                     projectRoot = "";
+                     targets = (
+                            F887C08F619B4CA5A0CAD6B8 /* ALL_BUILD */,
+                            26BDFE6387F84878A4A3EA99 /* PlotterProject */,
+                            20B7CD5CA21B4BAC9C4AD006 /* ZERO_CHECK */,
+                            F9998A1F195F4D10B405D1E4 /* install */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              04436D725D2143C4A137015E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              52B162FF607F406DACE7594B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter -f /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CA3BD622E3314611B59087E3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter -f /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter/CMakeScripts/PlotterProject_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BA16B0ACBB71425584A8A236 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter -f /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter/CMakeScripts/PlotterProject_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              126002175B4C4F97A65DAEB5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A3B9239041A64DB9A4430608 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter -f /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CB054C7E3AF44026B607B2FD /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              D6A4A9B883D840E38EA1EE0F /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter -f /Users/mirette/Documents/Polytech\\ Paris\\ Sud/2eme\\ année/Tronc\\ Commun/Projet\\ Coop/Plotter_Project/Build/Plotter/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              2BCA01D4D8444093890D9F27 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            5CD9AC6AF1DE4708BFEC6F02 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/main.cpp */,
+                            76683472D3AC4857A0540865 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/Plotter.cpp */,
+                            9B8DA3F0250B4EB782104E56 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/FindDialog.cpp */,
+                            A440E664E8CE4AE49CA7C42B /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/src/MainFram.cpp */,
+                            4B0CAFBE21EE43CDBD2828EA /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_Plotter.cxx */,
+                            9DF4AE4F1DD747B99B52EAB2 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_FindDialog.cxx */,
+                            F93F328EC24D4B3BA2F2A013 /* /Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/include/moc_MainFram.cxx */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              1CC09BB5F13E4CA3A5E9E798 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 20B7CD5CA21B4BAC9C4AD006 /* ZERO_CHECK */;
+                     targetProxy = D69C5C28BB6A4027A79826D4 /* PBXContainerItemProxy */;
+              };
+              4AE69141235E49D2BBF648D4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 26BDFE6387F84878A4A3EA99 /* PlotterProject */;
+                     targetProxy = A27B113D378E4D16B75FAFEC /* PBXContainerItemProxy */;
+              };
+              4B55915C15EA40AC96B73FC7 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F887C08F619B4CA5A0CAD6B8 /* ALL_BUILD */;
+                     targetProxy = FCB7DCC7A05F42BFBD248F32 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              49BB683B88D8405A80C65260 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/build";
+                     };
+                     name = Debug;
+              };
+              A6BCF525F07E43059D3D9666 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/build";
+                     };
+                     name = Release;
+              };
+              E648066B8C7349EEA0EA867A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/build";
+                     };
+                     name = MinSizeRel;
+              };
+              D143F876A83C419FA1B97D00 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.7.sdk";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              5A4784AD54A94BCB9A0C3C2C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CDDA789FA1C6464C8C95CC81 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2FFEC8DBD86F4838A31A6EFA /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              A93B0149F5994788A163F4CB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              A17D126F41774B3DB2941E46 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/bin/Debug";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Library/Frameworks/QtGui.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtGui.framework /Library/Frameworks/QtCore.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtCore.framework \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\" \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib\"";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework QtGui -framework QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = PlotterProject_d;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F84D113AB391459F9E33316D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/bin/Release";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Library/Frameworks/QtGui.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtGui.framework /Library/Frameworks/QtCore.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtCore.framework \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\" \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib\"";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework QtGui -framework QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = PlotterProject;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              49416C6214FB49D1860D5C16 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/bin/MinSizeRel";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Library/Frameworks/QtGui.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtGui.framework /Library/Frameworks/QtCore.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtCore.framework \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\" \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib\"";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework QtGui -framework QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = PlotterProject;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7D40AF3EDA854733A8E4E001 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/bin/RelWithDebInfo";
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = " /Library/Frameworks/QtGui.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtGui.framework /Library/Frameworks/QtCore.framework/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Library/Frameworks/QtCore.framework \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\" \"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/lib\"";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework QtGui -framework QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = PlotterProject;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              B65858BB12464E0E8DBEACD7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              C32B4A5627E34564B28B0705 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              3E00E3D744BE468B89024C9D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              6BF80454FAD44EDB8B00941F /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              7A25610B87D54584B439EA22 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3DA2522D92E340D498CC63EA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F41855EB879C45AFAD63EBB7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4692799A17C74B81B449D00A /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            FRAMEWORK_SEARCH_PATHS = (/Library/Frameworks, );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Library/Frameworks/QtGui.framework/Headers", "/Library/Frameworks/QtCore.framework/Headers", "\"/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Plotter/include\"", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              C72042B56B5C42E28D2FA561 /* Build configuration list for PBXProject  "PlotterProject" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            49BB683B88D8405A80C65260 /* Debug */,
+                            A6BCF525F07E43059D3D9666 /* Release */,
+                            E648066B8C7349EEA0EA867A /* MinSizeRel */,
+                            D143F876A83C419FA1B97D00 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              CD67E410EC374636830FD1EE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5A4784AD54A94BCB9A0C3C2C /* Debug */,
+                            CDDA789FA1C6464C8C95CC81 /* Release */,
+                            2FFEC8DBD86F4838A31A6EFA /* MinSizeRel */,
+                            A93B0149F5994788A163F4CB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              51F0A44370F04719A4A7B3D4 /* Build configuration list for PBXNativeTarget "PlotterProject" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A17D126F41774B3DB2941E46 /* Debug */,
+                            F84D113AB391459F9E33316D /* Release */,
+                            49416C6214FB49D1860D5C16 /* MinSizeRel */,
+                            7D40AF3EDA854733A8E4E001 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A8ADACD20EFC49018845389C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            B65858BB12464E0E8DBEACD7 /* Debug */,
+                            C32B4A5627E34564B28B0705 /* Release */,
+                            3E00E3D744BE468B89024C9D /* MinSizeRel */,
+                            6BF80454FAD44EDB8B00941F /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BD06D1951C4842AF91B9F761 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7A25610B87D54584B439EA22 /* Debug */,
+                            3DA2522D92E340D498CC63EA /* Release */,
+                            F41855EB879C45AFAD63EBB7 /* MinSizeRel */,
+                            4692799A17C74B81B449D00A /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 599307DD6AE74AEFA287FE56;
+}

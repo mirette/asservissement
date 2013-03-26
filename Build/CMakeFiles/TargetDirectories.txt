@@ -1,0 +1,3 @@
+/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/CMakeFiles/ALL_BUILD.dir
+/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/CMakeFiles/PlotterProject.dir
+/Users/mirette/Documents/Polytech Paris Sud/2eme année/Tronc Commun/Projet Coop/Plotter_Project/Build/Plotter/CMakeFiles/ZERO_CHECK.dir
