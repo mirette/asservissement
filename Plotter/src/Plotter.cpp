@@ -2,7 +2,7 @@
 #include <cmath>
 
 #include"Plotter.h"
-
+// dd
 
 /******************************************************* plotter constructor *****************************************************************/
 Plotter::Plotter(QWidget *parent)
